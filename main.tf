@@ -1,7 +1,5 @@
 provider "aws" {
-  shared_credentials_files = ["/Users/touheek/.aws/creds"]
   region                   = "us-east-2"
-  profile                  = "touheedk"
 }
 
 module "my_vpc" {
