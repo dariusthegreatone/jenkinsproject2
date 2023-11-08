@@ -9,7 +9,7 @@ pipeline {
         stage('Terraform Apply') {
             steps {
                 sh 'terraform init'
-                sh 'terraform destroy -auto-approve  -var-file vars/test/terraform.tfvars'
+                sh 'terraform destroy -auto-approve'
             }
         }
     }
