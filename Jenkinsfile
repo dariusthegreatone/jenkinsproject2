@@ -6,10 +6,10 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Terraform Apply') {
+        stage('Terraform Destroy') {
             steps {
                 sh 'terraform init'
-                sh 'terraform destroy -auto-approve'
+                sh 'terraform destroy -auto-approve -var-file vars/test/terraform.tfvars'
             }
         }
     }
