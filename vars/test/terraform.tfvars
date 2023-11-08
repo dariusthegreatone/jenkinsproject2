@@ -14,4 +14,4 @@ ec2_ami = "ami-089c26792dcb1fbd4"
 
 ec2_instance = "t2.medium"
 
-ec2_key = "abc"
+ec2_key = "Jenkins3"
