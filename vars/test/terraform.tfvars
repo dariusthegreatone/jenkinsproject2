@@ -10,7 +10,7 @@ subnet_cidr_private = "10.0.2.0/24"
 
 #EC2 Variable
 
-ec2_ami = "ami-0851b76e8b1bce90b"
+ec2_ami = "ami-089c26792dcb1fbd4"
 
 ec2_instance = "t2.medium"
 
